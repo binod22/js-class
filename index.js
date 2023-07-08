@@ -7,11 +7,11 @@ const port = 8080
 
 //function definitions block
 function hello(req, res) {
-    res.json({"message":"hi this is hellome"});
+    res.json({"message":"hi this is hello me"});
 
 }
 function helloyou(req, res) {
-    res.json({"message":"hi this is helloyou "});
+    res.json({"message":"hi this is hello you "});
 
 }
 function helloecho(req, res) { 
